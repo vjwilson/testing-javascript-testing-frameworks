@@ -4,7 +4,8 @@
   "description": "Examples of the same test for the same code, using different Javascript testing frameworks",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run test:ava",
+    "test:ava": "ava --verbose"
   },
   "repository": {
     "type": "git",
