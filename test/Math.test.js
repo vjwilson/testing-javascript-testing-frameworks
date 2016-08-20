@@ -26,7 +26,7 @@ test("Math divide function", t => {
   var result;
 
   result = math.divide(firstOperand, secondOperand);
-  t.is(result, firstOperand / secondOperand, 'divides using a non-zero dividend');
+  t.is(result, firstOperand / secondOperand, 'divides using a non-zero divisor');
 
   result = math.divide(firstOperand, 0);
   t.is(result, undefined, 'returns undefined when trying to divide by 0');
