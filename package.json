@@ -4,11 +4,12 @@
   "description": "Examples of the same test for the same code, using different Javascript testing frameworks",
   "main": "index.js",
   "scripts": {
-    "test": "npm run test:ava; npm run test:jasmine; npm run test:jest; npm run test:mocha",
+    "test": "npm run test:ava; npm run test:jasmine; npm run test:jest; npm run test:mocha; npm run test:tape",
     "test:ava": "ava --verbose test",
     "test:jasmine": "jasmine",
     "test:jest": "jest",
-    "test:mocha": "mocha --reporter spec mocha-spec"
+    "test:mocha": "mocha --reporter spec mocha-spec",
+    "test:tape": "tape \"tape-test/**/*.js\""
   },
   "repository": {
     "type": "git",
