@@ -6,7 +6,7 @@
   "scripts": {
     "test": "npm run test:ava; npm run test:jasmine",
     "test:ava": "ava --verbose",
-    "test:jasmine": "jasmine-node --verbose spec"
+    "test:jasmine": "jasmine"
   },
   "repository": {
     "type": "git",
@@ -29,7 +29,7 @@
   "homepage": "https://github.com/vjwilson/testing-javascript-testing-frameworks#readme",
   "devDependencies": {
     "ava": "^0.16.0",
-    "jasmine-node": "^1.14.5",
+    "jasmine": "^2.4.1",
     "jest-cli": "^14.1.0",
     "mocha": "^3.0.2",
     "tape": "^4.6.0"
