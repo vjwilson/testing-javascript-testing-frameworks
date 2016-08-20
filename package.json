@@ -4,9 +4,10 @@
   "description": "Examples of the same test for the same code, using different Javascript testing frameworks",
   "main": "index.js",
   "scripts": {
-    "test": "npm run test:ava; npm run test:jasmine",
-    "test:ava": "ava --verbose",
-    "test:jasmine": "jasmine"
+    "test": "npm run test:ava; npm run test:jasmine; npm run test:jest",
+    "test:ava": "ava --verbose test",
+    "test:jasmine": "jasmine",
+    "test:jest": "jest"
   },
   "repository": {
     "type": "git",
