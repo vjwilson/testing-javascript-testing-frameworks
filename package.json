@@ -1,0 +1,35 @@
+{
+  "name": "testing-javascript-testing-frameworks",
+  "version": "0.1.0",
+  "description": "Examples of the same test for the same code, using different Javascript testing frameworks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vjwilson/testing-javascript-testing-frameworks.git"
+  },
+  "keywords": [
+    "javascript",
+    "testing",
+    "ava",
+    "jasmine",
+    "jest",
+    "mocha",
+    "tape"
+  ],
+  "author": "Van J. Wilson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vjwilson/testing-javascript-testing-frameworks/issues"
+  },
+  "homepage": "https://github.com/vjwilson/testing-javascript-testing-frameworks#readme",
+  "devDependencies": {
+    "ava": "^0.16.0",
+    "jasmine-node": "^1.14.5",
+    "jest-cli": "^14.1.0",
+    "mocha": "^3.0.2",
+    "tape": "^4.6.0"
+  }
+}
