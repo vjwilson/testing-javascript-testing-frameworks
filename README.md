@@ -40,8 +40,8 @@ Note: I have my machine set up to add my current `node_modules` folder to find n
 
 Each of these testing frameworks has a default location where they look for test files. Because I'm mixing several frameworks in one project, I've had to change the location of tests for some of the test frameworks.
 
-| Framework | Default Location |   | Location in this Repo |
-| --------- | ---------------- | - | --------------------- |
+| Framework | Default Location |     | Location in this Repo |
+| --------- | ---------------- | --- | --------------------- |
 | Ava | `/test` | --> | `/test` |
 | Jasmine | `/spec` | --> | `/spec` |
 | Jest | `/__tests__` | --> | `/__tests__` |
